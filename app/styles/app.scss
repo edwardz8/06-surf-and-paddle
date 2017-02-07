@@ -15,7 +15,7 @@ ul {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 65rem;
   margin: 0 auto;
 }
@@ -27,12 +27,13 @@ img {
 
 .jumbotron {
   padding: 2rem;
-  margin-top: .5rem;
-  line-height: .5rem;
   background: url('http://static1.squarespace.com/static/5418a5bae4b0877352524377/t/55713519e4b07b4f85c0044b/1433482527204/?format=1000w') no-repeat center center fixed;
-  width: 100%;
-  border-top-left-radius: .5rem;
-  border-top-right-radius: .5rem;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-list {
@@ -58,6 +59,7 @@ img {
 
 .logo-pic {
   max-width: 6rem;
+
 }
 
 .logo {
@@ -84,6 +86,7 @@ img {
   text-align: center;
   color: black;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 //MAIN BODY SECTION
@@ -92,5 +95,5 @@ img {
 
 .grid {
       display: flex;
-      flex-wrap: wrap
+      flex-wrap: wrap;
     }
