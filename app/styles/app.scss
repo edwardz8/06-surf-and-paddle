@@ -14,19 +14,22 @@ ul {
   list-style: none;
 }
 
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 img {
   max-width: 100%;
   align-self: center;
 }
 
-.bg__nav-pic {
-  background: #26689e;
-  background-image: url();
-}
-
-.bg__nav {
+.jumbotron {
   padding: 2rem;
   line-height: .5rem;
+  background: url('http://www.inautonews.com/wp-content/uploads/2011/03/2012-volvo-v60-ocean-race-edition-front-three-quarters-1.jpg');
+  width: 100%;
 }
 
 .nav-list {
@@ -42,7 +45,7 @@ img {
 
 .nav__group-left {
   float: left;
-  margin: -1rem;
+  margin: -1.5rem;
   padding-left: 3rem;
 }
 
@@ -57,4 +60,18 @@ img {
 .logo {
   margin: 0;
   font-size: 1.5rem;
+}
+
+.center {
+  position: relative;
+  margin: 10rem;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-text {
+  text-align: center;
+  font-size: 2rem;
 }
