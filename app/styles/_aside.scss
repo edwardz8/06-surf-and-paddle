@@ -1,0 +1,49 @@
+
+
+/*Aside*/
+
+.column-right {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(40% / 2 -1rem -1rem);
+  padding: 1rem;
+}
+
+.aside__profile {
+      display: inline-block;
+      flex-grow: 1;
+      border-radius: 50%;
+}
+
+.aside__profile-name {
+  color: #335ede;
+  text-align: center;
+}
+
+.social {
+  margin: 1rem;
+  justify-content: center;
+}
+
+
+.ad {
+  display: inline-block;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.sidebar-section {
+  display: inline-block;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.sidebar-section__heading {
+  color: #335ede;
+  text-align: center;
+}
+
+.ad__about {
+  margin: 0;
+  text-align: right;
+}
