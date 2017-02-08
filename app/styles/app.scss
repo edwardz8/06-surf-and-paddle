@@ -94,5 +94,38 @@ img {
 //MAIN BODY SECTION
 
 .main-body {
-    padding: 1rem
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
   }
+
+  .column-left {
+    margin: 1rem;
+    flex-basis: calc(100% / 2 - 2rem -2rem);
+  }
+
+  .headline-text {
+    font-size: 3rem;
+    color: #274252;
+  }
+
+.pic-in-headline {
+  max-width: 5rem;
+  border-radius: 50%;
+  border: none;
+  margin: 0;
+}
+
+.date-posted {
+
+}
+
+.profile-name {
+  margin: 1rem;
+  font-size: 1rem;
+  color: #335ede;
+}
+
+.column-right {
+float: right;
+}
