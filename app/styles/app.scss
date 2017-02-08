@@ -59,7 +59,9 @@ img {
 
 .logo-pic {
   max-width: 6rem;
-
+  border-radius: 50%;
+  border: none;
+  margin: 0;
 }
 
 .logo {
@@ -91,9 +93,6 @@ img {
 
 //MAIN BODY SECTION
 
-.body.section {padding: 1rem}
-
-.grid {
-      display: flex;
-      flex-wrap: wrap;
-    }
+.main-body {
+    padding: 1rem
+  }
