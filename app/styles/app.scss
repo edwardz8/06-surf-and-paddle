@@ -20,20 +20,30 @@ border-top: .1rem solid #9d9c9d;
 
 .headline__bottom {
   text-align: center;
+  font-size: 3rem;
+  font-style: arial;
+  color: #1e6e9c;
 }
 
 .grid {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.grid__card {
+  margin: 0;
+  max-width: 15rem;
+  flex-basis: calc(100% / 4 -1rem -1rem);
+  flex-grow: 1;
 }
 
 .grid__photos {}
 
-.grid__poster {}
-
-.photo__headlines {
-  font-size: 2rem;
+/*.photo__headlines {
+  font-size: 1rem;
   position: relative;
-}
+  color: #fff;
+}*/
 
 .navbar__bottom {
   border: .5rem solid #3e68e3;
@@ -43,7 +53,7 @@ border-top: .1rem solid #9d9c9d;
 }
 
 .navbar-bottom__group-left {
-  margin: -1.5rem;
+  margin: -2rem;
   padding-left: 3rem;
   display: flex;
   justify-content: space-around;
@@ -61,8 +71,8 @@ border-top: .1rem solid #9d9c9d;
 
 .tiy__copyright {
   margin: 0;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: .5rem;
+  color: #fff;
 }
 
 .navbar-bottom__group-right {
