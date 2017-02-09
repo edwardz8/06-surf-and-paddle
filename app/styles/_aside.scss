@@ -10,9 +10,20 @@
 }
 
 .aside__profile {
-      display: inline-block;
+      display: flex;
+      flex-direction: column;
       flex-grow: 1;
-      border-radius: 50%;
+
+      &-networks {
+        display: flex;
+        flex-direction: row;
+      }
+}
+
+.aside__profile-pic {
+  min-width: 4rem;
+  max-width: 5rem;
+  border-radius: 50%;
 }
 
 .aside__profile-name {

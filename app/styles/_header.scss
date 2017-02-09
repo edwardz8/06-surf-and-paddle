@@ -29,7 +29,8 @@
 }
 
 .nav__group-right {
-  float: right;
+  display: flex;
+  margin: 1rem;
 }
 
 .logo-icon {
