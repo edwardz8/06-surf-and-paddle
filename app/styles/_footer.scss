@@ -1,0 +1,93 @@
+/*Footer*/
+
+.bottom {
+  background-size: cover;
+  border-top: 0.1rem solid #9d9c9d;
+  margin: 0;
+}
+
+.headline__bottom {
+  text-align: center;
+  font-size: 2.5rem;
+  font-style: arial;
+  color: #405385;
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__card {
+    flex-basis: calc(100% / 4 - 1rem);
+    flex-grow: 1;
+    margin: 0;
+    max-height: 15rem;
+    min-width: 10rem;
+    position: relative;
+
+  }
+
+  &__poster {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    filter: opacity(50%) brightness(100%);
+
+
+    &:hover {
+      filter: none;
+    }
+  }
+
+  .grid__text {
+    position: absolute;
+    color: white;
+    font-size: 2.5rem;
+    left: 1.5rem;
+  }
+}
+
+.navbar__bottom {
+  background: #405385;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 2rem;
+
+  &__group-left {
+    margin: -2rem;
+    padding-left: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__group-right {
+    margin: 1rem;
+  }
+
+  &-list {
+    display: flex;
+    margin: 0;
+
+    &__item {margin: .5rem;}
+  }
+}
+
+.tiy__icon {
+  max-width: 3rem;
+  border-radius: 50%;
+  border: none;
+  margin: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tiy__copyright {
+  margin: 0;
+  font-size: 0.5rem;
+  color: #fff;
+}

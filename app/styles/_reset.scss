@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.section {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+* {font-style: sans-serif;}
+
+img {
+  max-width: 100%;
+  align-self: center;
+}
