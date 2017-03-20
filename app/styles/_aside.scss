@@ -1,23 +1,22 @@
 
-
 /*Aside*/
 
 .column-right {
   display: flex;
   flex-direction: column;
-  flex-basis: calc(40% / 2 -1rem -1rem);
-  padding: 1rem;
+  margin: 1rem;
+  flex-basis: calc(40% - 1rem - 1rem);
 }
 
 .aside__profile {
-      display: flex;
-      flex-direction: column;
-      flex-grow: 1;
-      align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
 
-      &-networks {
-        //flex-direction: row;
-      }
+  &-networks {
+    //flex-direction: row;
+  }
 }
 
 .aside__profile-pic {
@@ -35,7 +34,6 @@
   margin: 1rem;
   justify-content: center;
 }
-
 
 .ad {
   display: inline-block;

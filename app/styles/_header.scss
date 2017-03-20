@@ -13,7 +13,6 @@
   display: flex;
   justify-content: space-between;
   margin: -1rem;
-  padding-right: 5rem;
 }
 
 .nav-list__item {
@@ -21,8 +20,6 @@
 }
 
 .nav__group-left {
-  margin: -1.5rem;
-  padding-left: 3rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -30,19 +27,18 @@
 
 .nav__group-right {
   display: flex;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .logo-icon {
   max-width: 6rem;
   border-radius: 50%;
   border: none;
-  margin: 0 2rem;
-
 }
 
 .logo {
   margin: 0;
+  margin-left: 1rem;
   font-size: 1.5rem;
 }
 

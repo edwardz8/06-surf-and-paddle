@@ -2,6 +2,7 @@
 
 
 .grid {
+  margin: -1rem;
   display: flex;
   flex-wrap: wrap;
 }
@@ -13,9 +14,8 @@
 }
 
 .column-left {
+  flex-basis: calc(60% - 1rem - 1rem);
   margin: 1rem;
-  padding: 1rem;
-  flex-basis: calc(60% / 2 -1rem -1rem);
 }
 
 .headline-text {
@@ -37,12 +37,6 @@
 }
 
 /*Article */
-
-.main__bottom-left {
-  padding: 1rem;
-  flex-grow: 0;
-  margin: 1rem;
-}
 
 .article-headline {
   font-size: 2rem;
